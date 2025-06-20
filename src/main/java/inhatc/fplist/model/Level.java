@@ -1,12 +1,23 @@
 package inhatc.fplist.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Level {
+    @JsonProperty("level_name")
     private String levelName;
+    
+    @JsonProperty("level_link")
     private String levelLink;
+    
+    @JsonProperty("fps_data")
     private FpsData fpsData;
+    
     private int rating;
     private Status status;
+    
+    @JsonProperty("level_id")
     private String levelId;
+    
     private String comment;
 
     // 기본 생성자
@@ -71,8 +82,13 @@ public class Level {
 
     // 내부 클래스들
     public static class FpsData {
+        @JsonProperty("fps_60")
         private int fps60;
+        
+        @JsonProperty("fps_120")
         private int fps120;
+        
+        @JsonProperty("fps_240")
         private int fps240;
 
         public FpsData() {}
