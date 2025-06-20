@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>레벨 관리 - FP List 관리자</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .sidebar {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 1rem 0;
+        }
+        .sidebar .nav-link {
+            color: rgba(255, 255, 255, 0.8);
+            padding: 0.75rem 1.25rem;
+            border-radius: 0.5rem;
+            margin: 0.25rem 0.5rem;
+            transition: all 0.3s;
+        }
+        .sidebar .nav-link:hover,
+        .sidebar .nav-link.active {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+        }
+        .content-area {
+            padding: 2rem;
+        }
+        .table-card {
+            background: white;
+            border-radius: 15px;
+            padding: 1.5rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .btn-sm {
+            margin: 0 2px;
+        }
+        .level-name-cell {
+            max-width: 200px;
+        }
+        .level-name-text {
+            font-weight: 600;
+        }
+        .action-buttons {
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- 사이드바 -->
+            <nav class="col-md-3 col-lg-2 sidebar">
+                <div class="text-center text-white mb-4 mt-3">
+                    <h4>🎮 FP List</h4>
+                    <small>관리자 패널</small>
+                </div>
+                
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/admin/dashboard">
+                            <i class="fas fa-tachometer-alt"></i>
+                            대시보드
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/admin/levels">
+                            <i class="fas fa-list"></i>
+                            레벨 관리
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/admin/levels/add">
+                            <i class="fas fa-plus"></i>
+                            레벨 추가
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <hr class="text-white-50">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">
+                            <i class="fas fa-home"></i>
+                            메인 사이트
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <form th:action="@{/admin/logout}" method="post" class="d-inline">
+                            <button type="submit" class="nav-link btn btn-link text-start w-100 border-0 bg-transparent text-white-50" 
+                                    style="padding: 0.75rem 1.25rem; border-radius: 0.5rem; margin: 0.25rem 0.5rem;">
+                                <i class="fas fa-sign-out-alt"></i>
+                                로그아웃
+                            </button>
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- 메인 콘텐츠 -->
+            <main class="col-md-9 ms-sm-auto col-lg-10 content-area">
+                <!-- 헤더 -->
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h1>레벨 관리</h1>
+                    <a href="/admin/levels/add" class="btn btn-primary">
+                        <i class="fas fa-plus"></i>
+                        새 레벨 추가
+                    </a>
+                </div>
+
+                <!-- 알림 메시지 -->
+                <div th:if="${success}" class="alert alert-success alert-dismissible fade show" role="alert">
+                    <i class="fas fa-check-circle"></i>
+                    <span th:text="${success}">성공 메시지</span>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+                
+                <div th:if="${error}" class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <span th:text="${error}">에러 메시지</span>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+
+                <!-- 레벨 목록 -->
+                <div class="table-card">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h5 class="mb-0">
+                            <i class="fas fa-list"></i>
+                            전체 레벨 목록 (<span th:text="${levels.size()}">0</span>개)
+                        </h5>
+                        <div>
+                            <small class="text-muted">Rating 높은 순으로 정렬</small>
+                        </div>
+                    </div>
+                    
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>레벨명</th>
+                                    <th>Rating</th>
+                                    <th>상태</th>
+                                    <th>60fps</th>
+                                    <th>120fps</th>
+                                    <th>240fps</th>
+                                    <th>코멘트</th>
+                                    <th width="150">작업</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr th:each="level : ${levels}">
+                                    <td class="level-name-cell">
+                                        <div class="level-name-text" th:text="${level.levelName}">레벨명</div>
+                                        <small class="text-muted" th:text="'ID: ' + ${level.levelId}">ID</small>
+                                        <div th:if="${level.levelLink != null and !level.levelLink.isEmpty()}">
+                                            <a th:href="${level.levelLink}" target="_blank" class="text-decoration-none">
+                                                <small><i class="fas fa-external-link-alt"></i> 영상</small>
+                                            </a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span class="badge bg-primary fs-6" th:text="${level.rating}">0</span>
+                                    </td>
+                                    <td>
+                                        <span class="badge fs-6" 
+                                              th:classappend="${level.status.code == 'R'} ? 'bg-success' : 
+                                                             (${level.status.code == 'V'} ? 'bg-info' : 
+                                                             (${level.status.code == 'C'} ? 'bg-warning text-dark' : 'bg-secondary'))"
+                                              th:text="${level.status.code}"
+                                              th:title="${level.status.description}">상태</span>
+                                    </td>
+                                    <td>
+                                        <span class="badge bg-light text-dark" th:text="${level.fpsData.fps60}">0</span>
+                                    </td>
+                                    <td>
+                                        <span class="badge bg-light text-dark" th:text="${level.fpsData.fps120}">0</span>
+                                    </td>
+                                    <td>
+                                        <span class="badge bg-light text-dark" th:text="${level.fpsData.fps240}">0</span>
+                                    </td>
+                                    <td>
+                                        <small th:text="${level.comment != null and !level.comment.isEmpty()} ? 
+                                                       (${level.comment.length() > 20} ? ${level.comment.substring(0, 20)} + '...' : ${level.comment}) 
+                                                       : '-'"
+                                               th:title="${level.comment}">코멘트</small>
+                                    </td>
+                                    <td class="action-buttons">
+                                        <a th:href="@{'/admin/levels/edit/' + ${level.levelId}}" 
+                                           class="btn btn-sm btn-outline-primary" title="수정">
+                                            <i class="fas fa-edit"></i>
+                                        </a>
+                                        <button type="button" class="btn btn-sm btn-outline-danger" 
+                                                title="삭제"
+                                                onclick="confirmDelete(this)"
+                                                th:data-level-id="${level.levelId}"
+                                                th:data-level-name="${level.levelName}">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr th:if="${levels.isEmpty()}">
+                                    <td colspan="8" class="text-center text-muted py-4">
+                                        <i class="fas fa-inbox fa-3x mb-3"></i>
+                                        <br>
+                                        등록된 레벨이 없습니다.
+                                        <br>
+                                        <a href="/admin/levels/add" class="btn btn-primary mt-2">
+                                            <i class="fas fa-plus"></i>
+                                            첫 번째 레벨 추가하기
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- 삭제 확인 모달 -->
+    <div class="modal fade" id="deleteModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">레벨 삭제 확인</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>정말로 다음 레벨을 삭제하시겠습니까?</p>
+                    <div class="alert alert-warning">
+                        <strong id="deleteLevelName">레벨명</strong>
+                        <br>
+                        <small>이 작업은 되돌릴 수 없습니다.</small>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">취소</button>
+                    <form id="deleteForm" method="post" style="display: inline;">
+                        <button type="submit" class="btn btn-danger">
+                            <i class="fas fa-trash"></i>
+                            삭제
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+    <script>
+        function confirmDelete(button) {
+            const levelId = button.getAttribute('data-level-id');
+            const levelName = button.getAttribute('data-level-name');
+            
+            document.getElementById('deleteLevelName').textContent = levelName;
+            document.getElementById('deleteForm').action = '/admin/levels/delete/' + levelId;
+            
+            const modal = new bootstrap.Modal(document.getElementById('deleteModal'));
+            modal.show();
+        }
+    </script>
+</body>
+</html> 

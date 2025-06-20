@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title th:text="${isEdit} ? '레벨 수정' : '레벨 추가'">레벨 관리</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .sidebar {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 1rem 0;
+        }
+        .sidebar .nav-link {
+            color: rgba(255, 255, 255, 0.8);
+            padding: 0.75rem 1.25rem;
+            border-radius: 0.5rem;
+            margin: 0.25rem 0.5rem;
+            transition: all 0.3s;
+        }
+        .sidebar .nav-link:hover,
+        .sidebar .nav-link.active {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+        }
+        .content-area {
+            padding: 2rem;
+        }
+        .form-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .rating-display {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #667eea;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- 사이드바 -->
+            <nav class="col-md-3 col-lg-2 sidebar">
+                <div class="text-center text-white mb-4 mt-3">
+                    <h4>🎮 FP List</h4>
+                    <small>관리자 패널</small>
+                </div>
+                
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/admin/dashboard">
+                            <i class="fas fa-tachometer-alt"></i>
+                            대시보드
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/admin/levels">
+                            <i class="fas fa-list"></i>
+                            레벨 관리
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/admin/levels/add">
+                            <i class="fas fa-plus"></i>
+                            레벨 추가
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <hr class="text-white-50">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">
+                            <i class="fas fa-home"></i>
+                            메인 사이트
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <form th:action="@{/admin/logout}" method="post" class="d-inline">
+                            <button type="submit" class="nav-link btn btn-link text-start w-100 border-0 bg-transparent text-white-50" 
+                                    style="padding: 0.75rem 1.25rem; border-radius: 0.5rem; margin: 0.25rem 0.5rem;">
+                                <i class="fas fa-sign-out-alt"></i>
+                                로그아웃
+                            </button>
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- 메인 콘텐츠 -->
+            <main class="col-md-9 ms-sm-auto col-lg-10 content-area">
+                <!-- 헤더 -->
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h1 th:text="${isEdit} ? '레벨 수정' : '새 레벨 추가'">레벨 관리</h1>
+                    <a href="/admin/levels" class="btn btn-outline-secondary">
+                        <i class="fas fa-arrow-left"></i>
+                        목록으로
+                    </a>
+                </div>
+
+                <div class="form-card">
+                    <form th:action="${isEdit} ? '/admin/levels/edit/' + ${level.levelId} : '/admin/levels/add'" 
+                          th:object="${level}" method="post">
+                        
+                        <div class="row">
+                            <!-- 기본 정보 -->
+                            <div class="col-md-6">
+                                <h5 class="mb-3">기본 정보</h5>
+                                
+                                <div class="mb-3">
+                                    <label for="levelName" class="form-label">레벨명 *</label>
+                                    <input type="text" class="form-control" id="levelName" 
+                                           th:field="*{levelName}" required>
+                                </div>
+                                
+                                <div class="mb-3">
+                                    <label for="levelId" class="form-label">레벨 ID *</label>
+                                    <input type="text" class="form-control" id="levelId" 
+                                           th:field="*{levelId}" th:readonly="${isEdit}" required>
+                                    <div class="form-text">지오메트리 대쉬 레벨 ID (수정 시 변경 불가)</div>
+                                </div>
+                                
+                                <div class="mb-3">
+                                    <label for="levelLink" class="form-label">영상 링크</label>
+                                    <input type="url" class="form-control" id="levelLink" 
+                                           th:field="*{levelLink}" placeholder="https://youtu.be/...">
+                                </div>
+                                
+                                <div class="mb-3">
+                                    <label for="comment" class="form-label">코멘트</label>
+                                    <textarea class="form-control" id="comment" rows="3" 
+                                              th:field="*{comment}" placeholder="특별한 주의사항이나 설명"></textarea>
+                                </div>
+                            </div>
+                            
+                            <!-- FPS 데이터 및 상태 -->
+                            <div class="col-md-6">
+                                <h5 class="mb-3">FPS 데이터</h5>
+                                
+                                <div class="mb-3">
+                                    <label for="fps60" class="form-label">60fps 프퍼펙 구간 수 *</label>
+                                    <input type="number" class="form-control" id="fps60" 
+                                           th:field="*{fpsData.fps60}" min="0" required 
+                                           onchange="calculateRating()">
+                                </div>
+                                
+                                <div class="mb-3">
+                                    <label for="fps120" class="form-label">120fps 프퍼펙 구간 수 *</label>
+                                    <input type="number" class="form-control" id="fps120" 
+                                           th:field="*{fpsData.fps120}" min="0" required 
+                                           onchange="calculateRating()">
+                                </div>
+                                
+                                <div class="mb-3">
+                                    <label for="fps240" class="form-label">240fps 프퍼펙 구간 수 *</label>
+                                    <input type="number" class="form-control" id="fps240" 
+                                           th:field="*{fpsData.fps240}" min="0" required 
+                                           onchange="calculateRating()">
+                                </div>
+                                
+                                <div class="mb-3">
+                                    <label class="form-label">예상 Rating</label>
+                                    <div class="rating-display" id="calculatedRating">0</div>
+                                    <div class="form-text">fps_60 + (fps_120 × 2) + (fps_240 × 4)</div>
+                                </div>
+                                
+                                <h5 class="mb-3 mt-4">상태 정보</h5>
+                                
+                                <div class="mb-3">
+                                    <label for="statusCode" class="form-label">상태 코드 *</label>
+                                    <select class="form-select" id="statusCode" th:field="*{status.code}" required>
+                                        <option value="">상태 선택</option>
+                                        <option value="R">R - 공식 인증</option>
+                                        <option value="V">V - 비공식 검증</option>
+                                        <option value="C">C - 취소됨</option>
+                                        <option value="U">U - 미검증</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="mb-3">
+                                    <label for="statusDescription" class="form-label">상태 설명</label>
+                                    <input type="text" class="form-control" id="statusDescription" 
+                                           th:field="*{status.description}" readonly>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <hr class="my-4">
+                        
+                        <div class="d-flex justify-content-between">
+                            <a href="/admin/levels" class="btn btn-secondary">
+                                <i class="fas fa-times"></i>
+                                취소
+                            </a>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-save"></i>
+                                <span th:text="${isEdit} ? '수정' : '추가'">저장</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+    <script>
+        // 상태 코드 변경 시 설명 자동 업데이트
+        document.getElementById('statusCode').addEventListener('change', function() {
+            const statusDescriptions = {
+                'R': 'rated, verified',
+                'V': 'unrated, verified', 
+                'C': 'challenge, verified',
+                'U': 'unverified'
+            };
+            
+            document.getElementById('statusDescription').value = statusDescriptions[this.value] || '';
+        });
+        
+        // Rating 자동 계산
+        function calculateRating() {
+            const fps60 = parseInt(document.getElementById('fps60').value) || 0;
+            const fps120 = parseInt(document.getElementById('fps120').value) || 0;
+            const fps240 = parseInt(document.getElementById('fps240').value) || 0;
+            
+            const rating = fps60 + (fps120 * 2) + (fps240 * 4);
+            document.getElementById('calculatedRating').textContent = rating;
+        }
+        
+        // 페이지 로드 시 초기값 설정
+        document.addEventListener('DOMContentLoaded', function() {
+            calculateRating();
+            
+            // 기존 상태 코드가 있다면 설명 설정
+            const statusCode = document.getElementById('statusCode').value;
+            if (statusCode) {
+                document.getElementById('statusCode').dispatchEvent(new Event('change'));
+            }
+        });
+    </script>
+</body>
+</html> 
