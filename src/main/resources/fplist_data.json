@@ -1,0 +1,2178 @@
+[
+  {
+    "level_name": "Aeternus",
+    "level_link": "https://youtu.be/o3l6vCrmNoc",
+    "fps_data": {
+      "fps_60": 212,
+      "fps_120": 78,
+      "fps_240": 3
+    },
+    "rating": 380,
+    "status": {
+      "code": "U",
+      "description": "unverified"
+    },
+    "level_id": "102646926",
+    "comment": ""
+  },
+  {
+    "level_name": "Africa Circles (unnerfed)",
+    "level_link": "https://youtu.be/7P66FY3cN-Q",
+    "fps_data": {
+      "fps_60": 170,
+      "fps_120": 35,
+      "fps_240": 0
+    },
+    "rating": 240,
+    "status": {
+      "code": "U",
+      "description": "unverified"
+    },
+    "level_id": "67153243",
+    "comment": "Release at 47% is incredibly hard"
+  },
+  {
+    "level_name": "CorroZ",
+    "level_link": "https://youtu.be/yg5gqybAUKg",
+    "fps_data": {
+      "fps_60": 127,
+      "fps_120": 46,
+      "fps_240": 0
+    },
+    "rating": 219,
+    "status": {
+      "code": "U",
+      "description": "unverified"
+    },
+    "level_id": "86191664",
+    "comment": ""
+  },
+  {
+    "level_name": "Tidal Wave",
+    "level_link": "https://youtu.be/EKytQz8TRoM",
+    "fps_data": {
+      "fps_60": 200,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 202,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "86407629",
+    "comment": ""
+  },
+  {
+    "level_name": "Ashley Wave Trials",
+    "level_link": "https://youtu.be/EjdkIfto-PM",
+    "fps_data": {
+      "fps_60": 155,
+      "fps_120": 11,
+      "fps_240": 0
+    },
+    "rating": 177,
+    "status": {
+      "code": "V",
+      "description": "unrated, verified"
+    },
+    "level_id": "74457770",
+    "comment": ""
+  },
+  {
+    "level_name": "Amethyst",
+    "level_link": "https://youtu.be/EOQ_8Blcerc",
+    "fps_data": {
+      "fps_60": 143,
+      "fps_120": 13,
+      "fps_240": 2
+    },
+    "rating": 177,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "119550490",
+    "comment": "The first click is not possible on 120 FPS"
+  },
+  {
+    "level_name": "Natural Disaster (unnerfed)",
+    "level_link": "https://youtu.be/6SgWBSoXm10",
+    "fps_data": {
+      "fps_60": 120,
+      "fps_120": 22,
+      "fps_240": 0
+    },
+    "rating": 164,
+    "status": {
+      "code": "U",
+      "description": "unverified"
+    },
+    "level_id": "85176381",
+    "comment": "For 60 FPS dash blocks at 59% and 89-90% were fixed"
+  },
+  {
+    "level_name": "Azure Flare (Aeden's)",
+    "level_link": "https://youtu.be/EFoezd6HObQ",
+    "fps_data": {
+      "fps_60": 109,
+      "fps_120": 23,
+      "fps_240": 2
+    },
+    "rating": 163,
+    "status": {
+      "code": "U",
+      "description": "unverified"
+    },
+    "level_id": "80518698",
+    "comment": "It's possible on 60 FPS (with super lucky frames alignment)"
+  },
+  {
+    "level_name": "KOCMOC (old unnerfed)",
+    "level_link": "https://youtu.be/6dI1FqiRI6U",
+    "fps_data": {
+      "fps_60": 114,
+      "fps_120": 19,
+      "fps_240": 2
+    },
+    "rating": 160,
+    "status": {
+      "code": "U",
+      "description": "unverified"
+    },
+    "level_id": "private",
+    "comment": "One timing on ball is incredibly hard"
+  },
+  {
+    "level_name": "Thinking Space II",
+    "level_link": "https://youtu.be/1D0CunzkqG4",
+    "fps_data": {
+      "fps_60": 108,
+      "fps_120": 20,
+      "fps_240": 1
+    },
+    "rating": 152,
+    "status": {
+      "code": "V",
+      "description": "unrated, verified"
+    },
+    "level_id": "119544028",
+    "comment": ""
+  },
+  {
+    "level_name": "Sarai",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 59,
+      "fps_120": 21,
+      "fps_240": 10
+    },
+    "rating": 141,
+    "status": {
+      "code": "U",
+      "description": "unverified"
+    },
+    "level_id": "private",
+    "comment": "First ball is incredibly hard"
+  },
+  {
+    "level_name": "Eternal Night (old)",
+    "level_link": "https://youtu.be/Lqk1PebU4ag",
+    "fps_data": {
+      "fps_60": 107,
+      "fps_120": 16,
+      "fps_240": 0
+    },
+    "rating": 139,
+    "status": {
+      "code": "U",
+      "description": "unverified"
+    },
+    "level_id": "73011766",
+    "comment": "For 60 FPS dash blocks on first wave were fixed"
+  },
+  {
+    "level_name": "KOCMOC (old nerfed)",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 100,
+      "fps_120": 11,
+      "fps_240": 0
+    },
+    "rating": 122,
+    "status": {
+      "code": "U",
+      "description": "unverified"
+    },
+    "level_id": "69196070",
+    "comment": ""
+  },
+  {
+    "level_name": "Exasperation",
+    "level_link": "https://youtu.be/9CuK9L5jGRE",
+    "fps_data": {
+      "fps_60": 83,
+      "fps_120": 13,
+      "fps_240": 2
+    },
+    "rating": 117,
+    "status": {
+      "code": "U",
+      "description": "unverified"
+    },
+    "level_id": "31325851",
+    "comment": "For 60 FPS yellow orb at 17% was fixed"
+  },
+  {
+    "level_name": "Defeated Circles",
+    "level_link": "https://youtu.be/qKyCo0epldc",
+    "fps_data": {
+      "fps_60": 101,
+      "fps_120": 6,
+      "fps_240": 0
+    },
+    "rating": 113,
+    "status": {
+      "code": "V",
+      "description": "unrated, verified"
+    },
+    "level_id": "120012581",
+    "comment": ""
+  },
+  {
+    "level_name": "WOODKID (unnerfed)",
+    "level_link": "https://youtu.be/uWZjPKVfAWM",
+    "fps_data": {
+      "fps_60": 77,
+      "fps_120": 13,
+      "fps_240": 2
+    },
+    "rating": 111,
+    "status": {
+      "code": "U",
+      "description": "unverified"
+    },
+    "level_id": "70581105",
+    "comment": "Bugs at 17%, 42% and 82% were fixed"
+  },
+  {
+    "level_name": "Unknown (old)",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 58,
+      "fps_120": 18,
+      "fps_240": 3
+    },
+    "rating": 106,
+    "status": {
+      "code": "U",
+      "description": "unverified"
+    },
+    "level_id": "70003258",
+    "comment": ""
+  },
+  {
+    "level_name": "FINAL FANTASY",
+    "level_link": "https://youtu.be/2untpnhjZv4",
+    "fps_data": {
+      "fps_60": 32,
+      "fps_120": 27,
+      "fps_240": 5
+    },
+    "rating": 106,
+    "status": {
+      "code": "C",
+      "description": "challenge, verified"
+    },
+    "level_id": "76767195",
+    "comment": "Play on 144 or 240 FPS"
+  },
+  {
+    "level_name": "Nullscapes",
+    "level_link": "https://youtu.be/xKUTy769uu4",
+    "fps_data": {
+      "fps_60": 82,
+      "fps_120": 9,
+      "fps_240": 0
+    },
+    "rating": 100,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "109780665",
+    "comment": ""
+  },
+  {
+    "level_name": "Aquamarine",
+    "level_link": "https://youtu.be/0FhRsPxi41U",
+    "fps_data": {
+      "fps_60": 89,
+      "fps_120": 6,
+      "fps_240": 0
+    },
+    "rating": 101,
+    "status": {
+      "code": "V",
+      "description": "unrated, verified"
+    },
+    "level_id": "77331805",
+    "comment": ""
+  },
+  {
+    "level_name": "Andromeda",
+    "level_link": "https://youtu.be/ZfXEpThyjDI",
+    "fps_data": {
+      "fps_60": 84,
+      "fps_120": 6,
+      "fps_240": 0
+    },
+    "rating": 96,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "114283297",
+    "comment": ""
+  },
+  {
+    "level_name": "Solar Flare",
+    "level_link": "https://youtu.be/tUOrP5664cE",
+    "fps_data": {
+      "fps_60": 89,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 89,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "90390075",
+    "comment": ""
+  },
+  {
+    "level_name": "EXPIRATION DATE",
+    "level_link": "https://youtu.be/aBdYhaED6sU",
+    "fps_data": {
+      "fps_60": 69,
+      "fps_120": 10,
+      "fps_240": 0
+    },
+    "rating": 89,
+    "status": {
+      "code": "C",
+      "description": "challenge, verified"
+    },
+    "level_id": "95357570",
+    "comment": ""
+  },
+  {
+    "level_name": "Delirium",
+    "level_link": "https://youtu.be/2Wlq9mxgYIk",
+    "fps_data": {
+      "fps_60": 61,
+      "fps_120": 14,
+      "fps_240": 0
+    },
+    "rating": 89,
+    "status": {
+      "code": "C",
+      "description": "challenge, verified"
+    },
+    "level_id": "68839068",
+    "comment": ""
+  },
+  {
+    "level_name": "Every End",
+    "level_link": "https://youtu.be/4_ORzSMiZPQ",
+    "fps_data": {
+      "fps_60": 82,
+      "fps_120": 2,
+      "fps_240": 0
+    },
+    "rating": 86,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "116174063",
+    "comment": ""
+  },
+  {
+    "level_name": "Avernus",
+    "level_link": "https://youtu.be/XKIidcMwdEM",
+    "fps_data": {
+      "fps_60": 82,
+      "fps_120": 2,
+      "fps_240": 0
+    },
+    "rating": 86,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "89496627",
+    "comment": ""
+  },
+  {
+    "level_name": "Alpha Never Clear",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 68,
+      "fps_120": 9,
+      "fps_240": 0
+    },
+    "rating": 86,
+    "status": {
+      "code": "U",
+      "description": "unverified"
+    },
+    "level_id": "private",
+    "comment": ""
+  },
+  {
+    "level_name": "Bosco busch",
+    "level_link": "https://youtu.be/Wms9W9tCyMc",
+    "fps_data": {
+      "fps_60": 55,
+      "fps_120": 14,
+      "fps_240": 0
+    },
+    "rating": 83,
+    "status": {
+      "code": "C",
+      "description": "challenge, verified"
+    },
+    "level_id": "95259962",
+    "comment": ""
+  },
+  {
+    "level_name": "SADOMASOCHISM",
+    "level_link": "https://youtu.be/ZLRL7DGLm00",
+    "fps_data": {
+      "fps_60": 59,
+      "fps_120": 11,
+      "fps_240": 0
+    },
+    "rating": 81,
+    "status": {
+      "code": "C",
+      "description": "challenge, verified"
+    },
+    "level_id": "76213334",
+    "comment": ""
+  },
+  {
+    "level_name": "Stercore",
+    "level_link": "https://youtu.be/uQxhkVuMHE0",
+    "fps_data": {
+      "fps_60": 49,
+      "fps_120": 16,
+      "fps_240": 0
+    },
+    "rating": 81,
+    "status": {
+      "code": "C",
+      "description": "challenge, verified"
+    },
+    "level_id": "69766474",
+    "comment": ""
+  },
+  {
+    "level_name": "Quanteuse processing",
+    "level_link": "https://youtu.be/pSWfyeQiBAM",
+    "fps_data": {
+      "fps_60": 65,
+      "fps_120": 5,
+      "fps_240": 1
+    },
+    "rating": 79,
+    "status": {
+      "code": "V",
+      "description": "unrated, verified"
+    },
+    "level_id": "113710822",
+    "comment": ""
+  },
+  {
+    "level_name": "Acheron",
+    "level_link": "https://youtu.be/yngMWLlFwtg",
+    "fps_data": {
+      "fps_60": 63,
+      "fps_120": 8,
+      "fps_240": 0
+    },
+    "rating": 79,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "73667628",
+    "comment": ""
+  },
+  {
+    "level_name": "Silent Acropolis (unnerfed)",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 39,
+      "fps_120": 14,
+      "fps_240": 2
+    },
+    "rating": 75,
+    "status": {
+      "code": "U",
+      "description": "unverified"
+    },
+    "level_id": "34506120",
+    "comment": "Second jump and one timing on ufo are incredibly hard"
+  },
+  {
+    "level_name": "Slaughterhouse",
+    "level_link": "https://youtu.be/fhoNEL3erc8",
+    "fps_data": {
+      "fps_60": 65,
+      "fps_120": 4,
+      "fps_240": 0
+    },
+    "rating": 73,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "27690100",
+    "comment": ""
+  },
+  {
+    "level_name": "Silent clubstep (unnerfed)",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 28,
+      "fps_120": 14,
+      "fps_240": 4
+    },
+    "rating": 72,
+    "status": {
+      "code": "U",
+      "description": "unverified"
+    },
+    "level_id": "38692301",
+    "comment": "Swag route at 15% was used"
+  },
+  {
+    "level_name": "MINUS WORLD",
+    "level_link": "https://youtu.be/nnWjD9XrJVQ",
+    "fps_data": {
+      "fps_60": 68,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 70,
+    "status": {
+      "code": "U",
+      "description": "unverified"
+    },
+    "level_id": "77875682",
+    "comment": "For 60 FPS bugs at 20%, 37% and 92% were fixed, for 120 FPS - only at 20%"
+  },
+  {
+    "level_name": "VSC",
+    "level_link": "https://youtu.be/nDWGW_lFoaE",
+    "fps_data": {
+      "fps_60": 61,
+      "fps_120": 3,
+      "fps_240": 0
+    },
+    "rating": 67,
+    "status": {
+      "code": "C",
+      "description": "challenge, verified"
+    },
+    "level_id": "60805571",
+    "comment": ""
+  },
+  {
+    "level_name": "Sakupen Circles",
+    "level_link": "https://youtu.be/vsSYAUR7npk",
+    "fps_data": {
+      "fps_60": 47,
+      "fps_120": 9,
+      "fps_240": 0
+    },
+    "rating": 65,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "76962930",
+    "comment": ""
+  },
+  {
+    "level_name": "Aztec rave monkey",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 64,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 64,
+    "status": {
+      "code": "C",
+      "description": "challenge, verified"
+    },
+    "level_id": "112667786",
+    "comment": "60 FPS only"
+  },
+  {
+    "level_name": "Warcora",
+    "level_link": "https://youtu.be/UviNUj2TFAE",
+    "fps_data": {
+      "fps_60": 63,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 63,
+    "status": {
+      "code": "U",
+      "description": "unverified"
+    },
+    "level_id": "68898570",
+    "comment": "60 FPS only"
+  },
+  {
+    "level_name": "Oblivers",
+    "level_link": "https://youtu.be/Xk4IJMLuz1Q",
+    "fps_data": {
+      "fps_60": 56,
+      "fps_120": 3,
+      "fps_240": 0
+    },
+    "rating": 62,
+    "status": {
+      "code": "C",
+      "description": "challenge, verified"
+    },
+    "level_id": "85042202",
+    "comment": "For 60 and 120 FPS bug at 12% was fixed"
+  },
+  {
+    "level_name": "Murder Mitten",
+    "level_link": "https://youtu.be/f8uLMx19_4E",
+    "fps_data": {
+      "fps_60": 50,
+      "fps_120": 6,
+      "fps_240": 0
+    },
+    "rating": 62,
+    "status": {
+      "code": "C",
+      "description": "challenge, verified"
+    },
+    "level_id": "81973761",
+    "comment": ""
+  },
+  {
+    "level_name": "Old Orochi",
+    "level_link": "https://youtu.be/pNyYnEutbY8",
+    "fps_data": {
+      "fps_60": 48,
+      "fps_120": 5,
+      "fps_240": 1
+    },
+    "rating": 62,
+    "status": {
+      "code": "U",
+      "description": "unverified"
+    },
+    "level_id": "59231857",
+    "comment": ""
+  },
+  {
+    "level_name": "521",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 24,
+      "fps_120": 19,
+      "fps_240": 0
+    },
+    "rating": 62,
+    "status": {
+      "code": "C",
+      "description": "challenge, verified"
+    },
+    "level_id": "85701165",
+    "comment": ""
+  },
+  {
+    "level_name": "Natural Disaster (old)",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 57,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 59,
+    "status": {
+      "code": "V",
+      "description": "unrated, verified"
+    },
+    "level_id": "76483916",
+    "comment": ""
+  },
+  {
+    "level_name": "Subterminal Point",
+    "level_link": "https://youtu.be/z0DhyQjPGMs",
+    "fps_data": {
+      "fps_60": 51,
+      "fps_120": 4,
+      "fps_240": 0
+    },
+    "rating": 59,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "113599729",
+    "comment": ""
+  },
+  {
+    "level_name": "3SH in Hell",
+    "level_link": "https://youtu.be/Sc-7O-X5vdw",
+    "fps_data": {
+      "fps_60": 58,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 58,
+    "status": {
+      "code": "C",
+      "description": "challenge, verified"
+    },
+    "level_id": "61614466",
+    "comment": "60 FPS only"
+  },
+  {
+    "level_name": "Sevvend Clubstep",
+    "level_link": "https://youtu.be/I77ODIkHIKU",
+    "fps_data": {
+      "fps_60": 58,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 58,
+    "status": {
+      "code": "V",
+      "description": "unrated, verified"
+    },
+    "level_id": "120255728",
+    "comment": ""
+  },
+  {
+    "level_name": "INNARDS (unnerfed)",
+    "level_link": "https://youtu.be/jH95va_xNr0",
+    "fps_data": {
+      "fps_60": 33,
+      "fps_120": 12,
+      "fps_240": 0
+    },
+    "rating": 57,
+    "status": {
+      "code": "V",
+      "description": "unrated, verified"
+    },
+    "level_id": "54496752",
+    "comment": "For 120 FPS blue orb at 60% was fixed"
+  },
+  {
+    "level_name": "KOCMOC",
+    "level_link": "https://youtu.be/xFqORrXQ38k",
+    "fps_data": {
+      "fps_60": 54,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 56,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "87665224",
+    "comment": "For 60 FPS bugs at 5%, 55% and 61% were fixed"
+  },
+  {
+    "level_name": "Blood Echo",
+    "level_link": "https://youtu.be/TXzv6iEUShM",
+    "fps_data": {
+      "fps_60": 55,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 55,
+    "status": {
+      "code": "V",
+      "description": "unrated, verified"
+    },
+    "level_id": "112242564",
+    "comment": ""
+  },
+  {
+    "level_name": "Lightposts",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 35,
+      "fps_120": 8,
+      "fps_240": 1
+    },
+    "rating": 55,
+    "status": {
+      "code": "C",
+      "description": "challenge, verified"
+    },
+    "level_id": "73199960",
+    "comment": ""
+  },
+  {
+    "level_name": "Anathema",
+    "level_link": "https://youtu.be/Wn6daOmskas",
+    "fps_data": {
+      "fps_60": 52,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 54,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "112313819",
+    "comment": ""
+  },
+  {
+    "level_name": "Apotheosis",
+    "level_link": "https://youtu.be/eP1EFRYxg4w",
+    "fps_data": {
+      "fps_60": 51,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 53,
+    "status": {
+      "code": "C",
+      "description": "challenge, verified"
+    },
+    "level_id": "76663114",
+    "comment": ""
+  },
+  {
+    "level_name": "Abyss of Darkness",
+    "level_link": "https://youtu.be/uzF4JIryXwE",
+    "fps_data": {
+      "fps_60": 43,
+      "fps_120": 5,
+      "fps_240": 0
+    },
+    "rating": 53,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "49896559",
+    "comment": ""
+  },
+  {
+    "level_name": "Aerial Gleam",
+    "level_link": "https://youtu.be/qOxlC8vMjho",
+    "fps_data": {
+      "fps_60": 52,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 52,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "79771070",
+    "comment": ""
+  },
+  {
+    "level_name": "Tunnel of Despair",
+    "level_link": "https://youtu.be/skE2YXjSz-0",
+    "fps_data": {
+      "fps_60": 50,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 52,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "91351939",
+    "comment": ""
+  },
+  {
+    "level_name": "Spectre",
+    "level_link": "https://youtu.be/GePBrPe4vlg",
+    "fps_data": {
+      "fps_60": 51,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 51,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "110815379",
+    "comment": ""
+  },
+  {
+    "level_name": "Trotil (old)",
+    "level_link": "https://youtu.be/iq0VS1RfPlY",
+    "fps_data": {
+      "fps_60": 43,
+      "fps_120": 4,
+      "fps_240": 0
+    },
+    "rating": 51,
+    "status": {
+      "code": "U",
+      "description": "unverified"
+    },
+    "level_id": "82939238",
+    "comment": ""
+  },
+  {
+    "level_name": "ETERNALtheory",
+    "level_link": "https://youtu.be/vzml3fB3Iq4",
+    "fps_data": {
+      "fps_60": 48,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 50,
+    "status": {
+      "code": "V",
+      "description": "unrated, verified"
+    },
+    "level_id": "92196326",
+    "comment": ""
+  },
+  {
+    "level_name": "Poocubed",
+    "level_link": "https://youtu.be/OTZi8E9jPnE",
+    "fps_data": {
+      "fps_60": 48,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 50,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "85133223",
+    "comment": "For 60 FPS red orb at 58% was fixed"
+  },
+  {
+    "level_name": "Menace",
+    "level_link": "https://youtu.be/QQ8gy_NHu7Y",
+    "fps_data": {
+      "fps_60": 48,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 48,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "107805281",
+    "comment": ""
+  },
+  {
+    "level_name": "Sonic Wave Infinity",
+    "level_link": "https://youtu.be/MyEmgrON9fg",
+    "fps_data": {
+      "fps_60": 46,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 48,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "69685815",
+    "comment": ""
+  },
+  {
+    "level_name": "Mayhem",
+    "level_link": "https://youtu.be/h33EXFmxxY4",
+    "fps_data": {
+      "fps_60": 44,
+      "fps_120": 2,
+      "fps_240": 0
+    },
+    "rating": 48,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "82544060",
+    "comment": ""
+  },
+  {
+    "level_name": "Illusion of Hell",
+    "level_link": "https://youtu.be/xCUju3-SZLc",
+    "fps_data": {
+      "fps_60": 42,
+      "fps_120": 3,
+      "fps_240": 0
+    },
+    "rating": 48,
+    "status": {
+      "code": "C",
+      "description": "challenge, verified"
+    },
+    "level_id": "38230726",
+    "comment": ""
+  },
+  {
+    "level_name": "MINUSdry",
+    "level_link": "https://youtu.be/sRj0c8IYiNI",
+    "fps_data": {
+      "fps_60": 44,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 46,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "89414220",
+    "comment": ""
+  },
+  {
+    "level_name": "The Salt Factory",
+    "level_link": "https://youtu.be/7qZYTycN5E8",
+    "fps_data": {
+      "fps_60": 44,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 46,
+    "status": {
+      "code": "V",
+      "description": "unrated, verified"
+    },
+    "level_id": "113045735",
+    "comment": ""
+  },
+  {
+    "level_name": "Saul Goodman",
+    "level_link": "https://youtu.be/qWIeKHG-1FY",
+    "fps_data": {
+      "fps_60": 45,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 45,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "90477539",
+    "comment": "For 60 FPS bug at 59% was fixed"
+  },
+  {
+    "level_name": "Edge of Destiny",
+    "level_link": "https://youtu.be/fLXM52E3Sxc",
+    "fps_data": {
+      "fps_60": 42,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 44,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "89187968",
+    "comment": ""
+  },
+  {
+    "level_name": "Flutterwonder",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 30,
+      "fps_120": 7,
+      "fps_240": 0
+    },
+    "rating": 44,
+    "status": {
+      "code": "C",
+      "description": "challenge, verified"
+    },
+    "level_id": "65496433",
+    "comment": ""
+  },
+  {
+    "level_name": "Anodyne",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 43,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 43,
+    "status": {
+      "code": "C",
+      "description": "challenge, verified"
+    },
+    "level_id": "105191372",
+    "comment": ""
+  },
+  {
+    "level_name": "Centipede",
+    "level_link": "https://youtu.be/0XC6gFup8Cs",
+    "fps_data": {
+      "fps_60": 43,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 43,
+    "status": {
+      "code": "V",
+      "description": "unrated, verified"
+    },
+    "level_id": "106646765",
+    "comment": ""
+  },
+  {
+    "level_name": "Walter white",
+    "level_link": "https://youtu.be/MZ0CWWryUXo",
+    "fps_data": {
+      "fps_60": 43,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 43,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "81011195",
+    "comment": ""
+  },
+  {
+    "level_name": "KOSETSU",
+    "level_link": "https://youtu.be/Hkj71Obq2H4",
+    "fps_data": {
+      "fps_60": 39,
+      "fps_120": 2,
+      "fps_240": 0
+    },
+    "rating": 43,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "109439644",
+    "comment": ""
+  },
+  {
+    "level_name": "Deorum",
+    "level_link": "https://youtu.be/3NItuRlead0",
+    "fps_data": {
+      "fps_60": 36,
+      "fps_120": 3,
+      "fps_240": 0
+    },
+    "rating": 42,
+    "status": {
+      "code": "C",
+      "description": "challenge, verified"
+    },
+    "level_id": "55392313",
+    "comment": ""
+  },
+  {
+    "level_name": "UNKNOWN",
+    "level_link": "https://youtu.be/e5oaufYCEok",
+    "fps_data": {
+      "fps_60": 32,
+      "fps_120": 5,
+      "fps_240": 0
+    },
+    "rating": 42,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "88203501",
+    "comment": ""
+  },
+  {
+    "level_name": "Delusion",
+    "level_link": "https://youtu.be/J5BPnKZp8ds",
+    "fps_data": {
+      "fps_60": 39,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 41,
+    "status": {
+      "code": "C",
+      "description": "challenge, verified"
+    },
+    "level_id": "65348932",
+    "comment": ""
+  },
+  {
+    "level_name": "Silent poltergeist",
+    "level_link": "https://youtu.be/j60kdtnHWb8",
+    "fps_data": {
+      "fps_60": 37,
+      "fps_120": 2,
+      "fps_240": 0
+    },
+    "rating": 41,
+    "status": {
+      "code": "V",
+      "description": "unrated, verified"
+    },
+    "level_id": "13586257",
+    "comment": ""
+  },
+  {
+    "level_name": "Amalgam",
+    "level_link": "https://youtu.be/SQoPGGykuIc",
+    "fps_data": {
+      "fps_60": 40,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 40,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "95675702",
+    "comment": ""
+  },
+  {
+    "level_name": "COMBUSTION",
+    "level_link": "https://youtu.be/MgRfCe4o2C8",
+    "fps_data": {
+      "fps_60": 40,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 40,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "94359172",
+    "comment": ""
+  },
+  {
+    "level_name": "EVIL",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 40,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 40,
+    "status": {
+      "code": "C",
+      "description": "challenge, verified"
+    },
+    "level_id": "110453861",
+    "comment": "60 FPS only"
+  },
+  {
+    "level_name": "THE ROCK HOUSE (unnerfed)",
+    "level_link": "https://youtu.be/XbXzh_S43JU",
+    "fps_data": {
+      "fps_60": 38,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 40,
+    "status": {
+      "code": "U",
+      "description": "unverified"
+    },
+    "level_id": "83397107",
+    "comment": ""
+  },
+  {
+    "level_name": "M I S F O R T U N E",
+    "level_link": "https://youtu.be/gEBgUcCr4Ko",
+    "fps_data": {
+      "fps_60": 30,
+      "fps_120": 5,
+      "fps_240": 0
+    },
+    "rating": 40,
+    "status": {
+      "code": "V",
+      "description": "unrated, verified"
+    },
+    "level_id": "115093521",
+    "comment": ""
+  },
+  {
+    "level_name": "qoUEO",
+    "level_link": "https://youtu.be/yPlwxVX_cN0",
+    "fps_data": {
+      "fps_60": 35,
+      "fps_120": 2,
+      "fps_240": 0
+    },
+    "rating": 39,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "81721025",
+    "comment": ""
+  },
+  {
+    "level_name": "Silent clubstep",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 29,
+      "fps_120": 5,
+      "fps_240": 0
+    },
+    "rating": 39,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "4125776",
+    "comment": ""
+  },
+  {
+    "level_name": "Deadlier Clubstep",
+    "level_link": "https://youtu.be/0-wEWk5h4q8",
+    "fps_data": {
+      "fps_60": 38,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 38,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "96314787",
+    "comment": ""
+  },
+  {
+    "level_name": "Oblivion",
+    "level_link": "https://youtu.be/3CNQBk3m0IA",
+    "fps_data": {
+      "fps_60": 35,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 37,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "71025973",
+    "comment": ""
+  },
+  {
+    "level_name": "Falling Illusion",
+    "level_link": "https://youtu.be/K7HpoceGEpg",
+    "fps_data": {
+      "fps_60": 27,
+      "fps_120": 5,
+      "fps_240": 0
+    },
+    "rating": 37,
+    "status": {
+      "code": "C",
+      "description": "challenge, verified"
+    },
+    "level_id": "50542904",
+    "comment": ""
+  },
+  {
+    "level_name": "Through The Gates",
+    "level_link": "https://youtu.be/GYLkO7wtPoo",
+    "fps_data": {
+      "fps_60": 27,
+      "fps_120": 5,
+      "fps_240": 0
+    },
+    "rating": 37,
+    "status": {
+      "code": "V",
+      "description": "unrated, verified"
+    },
+    "level_id": "49072489",
+    "comment": ""
+  },
+  {
+    "level_name": "Belladonna",
+    "level_link": "https://youtu.be/ESL1Hd8kvhw",
+    "fps_data": {
+      "fps_60": 36,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 36,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "94969889",
+    "comment": "For 2.2 bug at 85% was fixed"
+  },
+  {
+    "level_name": "KOCMOC (Trick's)",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 34,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 36,
+    "status": {
+      "code": "V",
+      "description": "unrated, verified"
+    },
+    "level_id": "89653463",
+    "comment": "For 60 FPS bugs at 55%, 61% and 83% were fixed, for 120 FPS - only at 55%"
+  },
+  {
+    "level_name": "Craven Soul",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 30,
+      "fps_120": 3,
+      "fps_240": 0
+    },
+    "rating": 36,
+    "status": {
+      "code": "C",
+      "description": "challenge, verified"
+    },
+    "level_id": "67862379",
+    "comment": ""
+  },
+  {
+    "level_name": "Deimos",
+    "level_link": "https://youtu.be/lFvhTeNkafg",
+    "fps_data": {
+      "fps_60": 35,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 35,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "93091893",
+    "comment": "For 60 FPS bugs at 18% and 88% were fixed"
+  },
+  {
+    "level_name": "BOOBAWAMBA",
+    "level_link": "https://youtu.be/szp67jZMER8",
+    "fps_data": {
+      "fps_60": 31,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 33,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "110816181",
+    "comment": ""
+  },
+  {
+    "level_name": "Gaggatrondra",
+    "level_link": "https://youtu.be/BiOTehzUavA",
+    "fps_data": {
+      "fps_60": 32,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 32,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "114990369",
+    "comment": ""
+  },
+  {
+    "level_name": "CONVULSION",
+    "level_link": "https://youtu.be/QfoL7UNMgtM",
+    "fps_data": {
+      "fps_60": 30,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 32,
+    "status": {
+      "code": "V",
+      "description": "unrated, verified"
+    },
+    "level_id": "113322063",
+    "comment": ""
+  },
+  {
+    "level_name": "Stellar Night",
+    "level_link": "https://youtu.be/76_pgb975q8",
+    "fps_data": {
+      "fps_60": 29,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 31,
+    "status": {
+      "code": "V",
+      "description": "unrated, verified"
+    },
+    "level_id": "83244159",
+    "comment": ""
+  },
+  {
+    "level_name": "The Hallucination",
+    "level_link": "https://youtu.be/lqBg7TgJtlI",
+    "fps_data": {
+      "fps_60": 30,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 30,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "81139702",
+    "comment": ""
+  },
+  {
+    "level_name": "Shardscapes",
+    "level_link": "https://youtu.be/pWejab10B0c",
+    "fps_data": {
+      "fps_60": 29,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 29,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "79997992",
+    "comment": ""
+  },
+  {
+    "level_name": "THE ROCK HOUSE",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 29,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 29,
+    "status": {
+      "code": "V",
+      "description": "unrated, verified"
+    },
+    "level_id": "83828637",
+    "comment": ""
+  },
+  {
+    "level_name": "The Lightning Rod",
+    "level_link": "https://youtu.be/PS4FffqFrmM",
+    "fps_data": {
+      "fps_60": 27,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 29,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "93917076",
+    "comment": ""
+  },
+  {
+    "level_name": "Element 111 Rg",
+    "level_link": "https://youtu.be/58eZXUV0T0o",
+    "fps_data": {
+      "fps_60": 17,
+      "fps_120": 4,
+      "fps_240": 1
+    },
+    "rating": 29,
+    "status": {
+      "code": "V",
+      "description": "unrated, verified"
+    },
+    "level_id": "61775814",
+    "comment": ""
+  },
+  {
+    "level_name": "Paraballa",
+    "level_link": "https://youtu.be/gN19AwAmKXQ",
+    "fps_data": {
+      "fps_60": 28,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 28,
+    "status": {
+      "code": "C",
+      "description": "challenge, verified"
+    },
+    "level_id": "68963370",
+    "comment": "60 FPS only"
+  },
+  {
+    "level_name": "Hell Ball Finale",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 27,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 27,
+    "status": {
+      "code": "C",
+      "description": "challenge, verified"
+    },
+    "level_id": "86047466",
+    "comment": "60 FPS only"
+  },
+  {
+    "level_name": "NEUTRA",
+    "level_link": "https://youtu.be/Y7Mu6Xx8WL4",
+    "fps_data": {
+      "fps_60": 25,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 27,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "88611404",
+    "comment": "For 120 FPS bug at 45% was fixed"
+  },
+  {
+    "level_name": "Arcturus",
+    "level_link": "https://youtu.be/B4YjEWzDN6k",
+    "fps_data": {
+      "fps_60": 26,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 26,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "72315402",
+    "comment": ""
+  },
+  {
+    "level_name": "PSYCHOPATH",
+    "level_link": "https://youtu.be/to8ytbX8wlc",
+    "fps_data": {
+      "fps_60": 26,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 26,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "103925676",
+    "comment": ""
+  },
+  {
+    "level_name": "Cosmic Cyclone",
+    "level_link": "https://youtu.be/-BQKt85ig54",
+    "fps_data": {
+      "fps_60": 25,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 25,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "76159410",
+    "comment": ""
+  },
+  {
+    "level_name": "Nautical Nebula",
+    "level_link": "https://youtu.be/xr88N-Eyxvg",
+    "fps_data": {
+      "fps_60": 25,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 25,
+    "status": {
+      "code": "V",
+      "description": "unrated, verified"
+    },
+    "level_id": "110891882",
+    "comment": ""
+  },
+  {
+    "level_name": "Congregation",
+    "level_link": "https://youtu.be/lC0swCQXA5w",
+    "fps_data": {
+      "fps_60": 23,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 25,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "68668045",
+    "comment": ""
+  },
+  {
+    "level_name": "Cobwebs",
+    "level_link": "https://youtu.be/-JZqj4dGAjE",
+    "fps_data": {
+      "fps_60": 24,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 24,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "82172844",
+    "comment": ""
+  },
+  {
+    "level_name": "Tartarus",
+    "level_link": "https://youtu.be/YXl8UAoY0Ro",
+    "fps_data": {
+      "fps_60": 22,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 24,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "59075347",
+    "comment": ""
+  },
+  {
+    "level_name": "Firework",
+    "level_link": "https://youtu.be/rr_tnGYlCLc",
+    "fps_data": {
+      "fps_60": 23,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 23,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "75206202",
+    "comment": "For 60 FPS first cube was fixed"
+  },
+  {
+    "level_name": "Kyouki",
+    "level_link": "https://youtu.be/ZH1EKMy9m6c",
+    "fps_data": {
+      "fps_60": 22,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 22,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "86018142",
+    "comment": "For 60 FPS bug at 66% was fixed"
+  },
+  {
+    "level_name": "The Golden",
+    "level_link": "https://youtu.be/nM9he4IgNKg",
+    "fps_data": {
+      "fps_60": 22,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 22,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "60978746",
+    "comment": ""
+  },
+  {
+    "level_name": "RUTHLESS (unnerfed)",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 21,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 21,
+    "status": {
+      "code": "V",
+      "description": "unrated, verified"
+    },
+    "level_id": "86154347",
+    "comment": "For 60 FPS bug at 62% was fixed"
+  },
+  {
+    "level_name": "Trueffet",
+    "level_link": "https://youtu.be/Ok3jAjZ2RWs",
+    "fps_data": {
+      "fps_60": 20,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 22,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "71434979",
+    "comment": ""
+  },
+  {
+    "level_name": "Diabolic ClubStep",
+    "level_link": "https://youtu.be/PwNVo7-VxE8",
+    "fps_data": {
+      "fps_60": 19,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 19,
+    "status": {
+      "code": "V",
+      "description": "unrated, verified"
+    },
+    "level_id": "73214186",
+    "comment": ""
+  },
+  {
+    "level_name": "LIMBO",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 19,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 19,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "86084399",
+    "comment": ""
+  },
+  {
+    "level_name": "RUST",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 19,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 19,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "71912451",
+    "comment": ""
+  },
+  {
+    "level_name": "The Yangire",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 19,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 19,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "110500920",
+    "comment": ""
+  },
+  {
+    "level_name": "Thinking Space",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 13,
+      "fps_120": 2,
+      "fps_240": 0
+    },
+    "rating": 17,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "54953085",
+    "comment": "For 60 FPS bug at 30% was fixed"
+  },
+  {
+    "level_name": "Apocalyptic Trilogy",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 16,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 16,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "113443235",
+    "comment": ""
+  },
+  {
+    "level_name": "Cimmerian Shade",
+    "level_link": "https://youtu.be/dUp9Utgpu2Y",
+    "fps_data": {
+      "fps_60": 16,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 16,
+    "status": {
+      "code": "V",
+      "description": "unrated, verified"
+    },
+    "level_id": "93340783",
+    "comment": ""
+  },
+  {
+    "level_name": "Trotil",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 14,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 16,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "94578424",
+    "comment": ""
+  },
+  {
+    "level_name": "SUPERHATEMEWORLD",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 12,
+      "fps_120": 2,
+      "fps_240": 0
+    },
+    "rating": 16,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "57571983",
+    "comment": "For 60 FPS first jump and yellow orb at 89% were fixed"
+  },
+  {
+    "level_name": "Based After Based",
+    "level_link": "https://youtu.be/KjuV3EdluYQ",
+    "fps_data": {
+      "fps_60": 15,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 15,
+    "status": {
+      "code": "V",
+      "description": "unrated, verified"
+    },
+    "level_id": "110534288",
+    "comment": ""
+  },
+  {
+    "level_name": "Hard Machine",
+    "level_link": "https://youtu.be/f6YAEqQlQZ4",
+    "fps_data": {
+      "fps_60": 13,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 15,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "72744364",
+    "comment": ""
+  },
+  {
+    "level_name": "Promethean",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 14,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 14,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "69333212",
+    "comment": ""
+  },
+  {
+    "level_name": "Zodiac",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 13,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 13,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "52374843",
+    "comment": ""
+  },
+  {
+    "level_name": "Kowareta",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 11,
+      "fps_120": 1,
+      "fps_240": 0
+    },
+    "rating": 13,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "46763581",
+    "comment": ""
+  },
+  {
+    "level_name": "Shukketsu",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 12,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 12,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "75286957",
+    "comment": ""
+  },
+  {
+    "level_name": "Lucid Nightmares",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 12,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 12,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "52310333",
+    "comment": "For 60 FPS bugs at 50% and 56% were fixed"
+  },
+  {
+    "level_name": "Hatred",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 12,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 12,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "27580467",
+    "comment": ""
+  },
+  {
+    "level_name": "Verdant Landscape",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 12,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 12,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "76543324",
+    "comment": ""
+  },
+  {
+    "level_name": "Eyes in the Water",
+    "level_link": "",
+    "fps_data": {
+      "fps_60": 10,
+      "fps_120": 0,
+      "fps_240": 0
+    },
+    "rating": 10,
+    "status": {
+      "code": "R",
+      "description": "rated, verified"
+    },
+    "level_id": "95851008",
+    "comment": ""
+  }
+]
