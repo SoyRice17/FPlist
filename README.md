@@ -103,7 +103,7 @@ FPlist/
   },
   "rating": 380,      // 난이도 점수
   "status": {
-    "code": "U",      // R: 공식인증, V: 비공식검증, C: 취소됨, U: 미검증
+    "code": "U",      // R: 공식인증, V: 비공식검증, C: 진행중, U: 미검증
     "description": "unverified"
   },
   "level_id": "102646926",
@@ -163,9 +163,9 @@ curl http://localhost:8080/levels?search=Aeternus
 
 ## 👨‍💻 개발자
 
-- **개발자**: [Your Name]
-- **이메일**: [your.email@example.com]
-- **GitHub**: [@yourusername](https://github.com/yourusername)
+- **개발자**: [Soyrice17]
+- **이메일**: [rkswkdqkq6974@gmail.com]
+- **GitHub**: [@Soyrice17](https://github.com/Soyrice17)
 
 ## 🙏 감사의 말
 
